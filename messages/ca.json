@@ -3,7 +3,9 @@
     "login": "Inicia sessió",
     "register": "Registra't",
     "heroTitle": "La intel·ligència artificial que impulsa el teu negoci",
-    "heroSubtitle": "Gestiona processos, analitza dades i escala sense límits."
+    "heroSubtitle": "Gestiona processos, analitza dades i escala sense límits.",
+    "aunNo": "Encara no tens compte?",
+    "yaTienesCuenta": "Ja estàs registrat?"
   },
   "Auth": {
     "emailLabel": "Correu electrònic",

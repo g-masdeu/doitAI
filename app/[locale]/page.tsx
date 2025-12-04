@@ -41,7 +41,10 @@ export default function LandingPage() {
       <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,transparent_5%,rgb(var(--background))_90%)] pointer-events-none"></div>
 
       {/* 2. Barra Superior */}
-      <nav className="absolute top-0 right-0 z-50 p-6 flex gap-4 items-center">
+      {/* Barra Superior */}
+      <nav className="absolute top-0 right-0 z-50 p-6 flex gap-4 items-center flex-wrap justify-end">
+        {/* flex-wrap ayuda si en móviles muy pequeños no caben todos los iconos */}
+        
         <ThemeToggle />
         <LanguageSwitcher />
 
@@ -53,7 +56,9 @@ export default function LandingPage() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => setActiveModal("login")}
-          className="hidden sm:block rounded-full border-2 border-primary hover:border-green-600 bg-primary px-6 py-2 text-sm font-bold text-foreground shadow-[0_0_20px_rgba(var(--primary),0.4)] transition hover:bg-green-600"
+          // 1. CORRECCIÓN: Borrado 'hidden sm:block'. Ahora es visible siempre.
+          // He reducido el padding en móvil (px-4) y aumentado en escritorio (sm:px-6) para que quepa mejor.
+          className="rounded-full border-2 border-primary hover:border-green-600 bg-primary px-4 sm:px-6 py-2 text-xs sm:text-sm font-bold text-foreground shadow-[0_0_20px_rgba(var(--primary),0.4)] transition hover:bg-green-600"
         >
           {t("login")}
         </motion.button>
@@ -66,7 +71,8 @@ export default function LandingPage() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => setActiveModal("register")}
-          className="hidden sm:block rounded-full border-2 border-primary hover:border-green-600 bg-primary px-6 py-2 text-sm font-bold text-foreground shadow-[0_0_20px_rgba(var(--primary),0.4)] transition hover:bg-green-600"
+          // 2. CORRECCIÓN: Borrado 'hidden sm:block'.
+          className="rounded-full border-2 border-primary hover:border-green-600 bg-primary px-4 sm:px-6 py-2 text-xs sm:text-sm font-bold text-foreground shadow-[0_0_20px_rgba(var(--primary),0.4)] transition hover:bg-green-600"
         >
           {t("register")}
         </motion.button>
@@ -107,14 +113,21 @@ export default function LandingPage() {
                 .toLowerCase()
                 .replace(/[^a-zA-Záéíóúüñ]/g, "");
               const isKeyword =
-                cleanWord === "negocio" || cleanWord === "business";
+                cleanWord === "negocio" ||
+                cleanWord === "business" ||
+                cleanWord === "entreprise" ||
+                cleanWord === "unternehmen" ||
+                cleanWord === "negoci" ||
+                cleanWord === "negozioa";
 
               return isKeyword ? (
-                <span key={i} className="text-primary italic">
+                <span key={i} className="italic text-green-500">
                   {word}{" "}
                 </span>
               ) : (
-                <span key={i}>{word} </span>
+                <span key={i} className="text-primary">
+                  {word}{" "}
+                </span>
               );
             })}
         </motion.h1>
@@ -161,12 +174,12 @@ export default function LandingPage() {
       >
         <LoginForm />
         <div className="mt-4 text-center text-sm text-gray-500">
-          ¿Aún no tienes cuenta?
+          {t("aunNo")}
           <button
             onClick={() => setActiveModal("register")}
             className="ml-1 text-primary font-bold hover:underline"
           >
-            Crea una
+            {t("register")}
           </button>
         </div>
       </Modal>
@@ -179,12 +192,12 @@ export default function LandingPage() {
         <div className="max-h-[80vh] overflow-y-auto px-1 scrollbar-hide">
           <RegisterForm />
           <div className="mt-6 border-t pt-4 text-center text-sm text-gray-500">
-            ¿Ya tienes cuenta?
+            {t("yaTienesCuenta")}
             <button
               onClick={() => setActiveModal("login")}
               className="ml-1 text-primary font-bold hover:underline"
             >
-              Inicia sesión
+              {t("login")}
             </button>
           </div>
         </div>

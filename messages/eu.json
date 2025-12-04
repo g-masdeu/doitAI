@@ -3,7 +3,9 @@
     "login": "Saioa hasi",
     "register": "Erregistratu",
     "heroTitle": "Zure negozioa bultzatzen duen adimen artifiziala",
-    "heroSubtitle": "Prozesuak kudeatu, datuak aztertu eta mugarik gabe eskalatu."
+    "heroSubtitle": "Prozesuak kudeatu, datuak aztertu eta mugarik gabe eskalatu.",
+    "aunNo": "Oraindik ez duzu konturik?",
+    "yaTienesCuenta": "Dagoeneko kontua baduzu?"
   },
   "Auth": {
     "emailLabel": "Helbide elektronikoa",

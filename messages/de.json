@@ -3,7 +3,9 @@
     "login": "Anmelden",
     "register": "Registrieren",
     "heroTitle": "Künstliche Intelligenz, die Ihr Unternehmen voranbringt",
-    "heroSubtitle": "Prozesse verwalten, Daten analysieren und grenzenlos skalieren."
+    "heroSubtitle": "Prozesse verwalten, Daten analysieren und grenzenlos skalieren.",
+    "aunNo": "Hast du noch kein Konto?",
+    "yaTienesCuenta": "Hast du schon ein Konto?"
   },
   "Auth": {
     "emailLabel": "E-Mail-Adresse",

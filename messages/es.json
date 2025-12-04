@@ -3,7 +3,9 @@
     "login": "Iniciar Sesión",
     "register": "Registrarse",
     "heroTitle": "La Inteligencia Artificial que impulsa tu negocio",
-    "heroSubtitle": "Gestiona tus procesos, analiza datos y escala sin límites."
+    "heroSubtitle": "Gestiona tus procesos, analiza datos y escala sin límites.",
+    "aunNo": "¿Aún no tienes cuenta?",
+    "yaTienesCuenta": "¿Ya tienes cuenta?"
   },
   "Auth": {
     "emailLabel": "Correo Electrónico",

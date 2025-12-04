@@ -3,7 +3,9 @@
     "login": "Se connecter",
     "register": "S'inscrire",
     "heroTitle": "L'intelligence artificielle qui propulse votre entreprise",
-    "heroSubtitle": "Gérez vos processus, analysez vos données et évoluez sans limites."
+    "heroSubtitle": "Gérez vos processus, analysez vos données et évoluez sans limites.",
+    "aunNo": "Tu n’as pas encore de compte ?",
+    "yaTienesCuenta": "Tu as déjà un compte ?"
   },
   "Auth": {
     "emailLabel": "Adresse e-mail",

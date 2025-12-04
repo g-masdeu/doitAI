@@ -1,40 +1,44 @@
-"use client"
+"use client";
 
-import { useTheme } from "next-themes"
-import { useEffect, useState } from "react"
-import { motion } from "framer-motion"
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 export default function ThemeToggle() {
-  const { setTheme, resolvedTheme } = useTheme()
-  const [mounted, setMounted] = useState(false)
+  const { setTheme, resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true)
+    setMounted(true);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, []);
 
   if (!mounted) {
-    // Mantenemos el hueco pero invisible para evitar saltos de layout
-    return <div className="w-10 h-10 opacity-0" /> 
+    return <div className="w-10 h-10 opacity-0" />;
   }
 
-  const isDark = resolvedTheme === "dark"
+  const isDark = resolvedTheme === "dark";
 
   return (
     <motion.button
-      // 1. Animación de Entrada (Igual que en page.tsx)
+      // 1. Animación de Entrada (Cascada)
       initial={{ opacity: 0, x: 20 }}
       animate={{ opacity: 1, x: 0 }}
-      // transition={{ delay: 0.9 }} // Un poco antes que el botón de Login (que tiene 1.0)
-      
-      // 2. Interacción (Reemplaza a las clases hover:scale de CSS para mayor fluidez)
+      // CONFIGURACIÓN CLAVE:
+      // Separamos las transiciones para que el 'hover out' no tenga retraso
+      transition={{
+        opacity: { delay: 0.95 }, // La entrada tarda en empezar
+        x: { delay: 0.95 }, // La entrada tarda en empezar
+        scale: { duration: 0.2 }, // La escala (volver del hover) es suave e inmediata
+      }}
+      // 2. Interacción SUAVE (Como el LanguageSwitcher)
+      // Al quitar 'duration: 0', vuelve a usar el efecto muelle por defecto
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      
-      // He quitado 'hover:scale-110' y 'active:scale-95' del className porque ahora lo hace Framer Motion
-      className="relative flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-xl backdrop-blur-sm transition-colors hover:bg-white/20 border border-white/10"
+      // 3. CSS: Volvemos a poner 'transition-colors' para el fondo suave
+      className="relative flex h-10 w-10 items-center justify-center rounded-full text-xl backdrop-blur-sm transition-colors border
+      bg-black/3 border-black/10 hover:bg-black/10 dark:bg-white/10 dark:border-white/10 dark:hover:bg-white/20"
       title={isDark ? "Cambiar a modo claro" : "Cambiar a modo oscuro"}
     >
       <motion.div
@@ -43,17 +47,17 @@ export default function ThemeToggle() {
         transition={{ duration: 0.3 }}
         className="absolute"
       >
-        ☀️ 
+        ☀️
       </motion.div>
-      
+
       <motion.div
         initial={false}
         animate={{ rotate: isDark ? 0 : -180, scale: isDark ? 1 : 0 }}
         transition={{ duration: 0.3 }}
         className="absolute"
       >
-        🌙 
+        🌙
       </motion.div>
     </motion.button>
-  )
+  );
 }

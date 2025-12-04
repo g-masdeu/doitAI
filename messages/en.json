@@ -3,7 +3,9 @@
     "login": "Login",
     "register": "Sign Up",
     "heroTitle": "Artificial Intelligence powering your business",
-    "heroSubtitle": "Manage your processes, analyze data, and scale without limits."
+    "heroSubtitle": "Manage your processes, analyze data, and scale without limits.",
+    "aunNo": "Don’t have an account yet?",
+    "yaTienesCuenta": "Already have an account?"
   },
   "Auth": {
     "emailLabel": "Email Address",

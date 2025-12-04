@@ -70,5 +70,6 @@ export default function LoginForm() {
         {isPending ? t('verifying') : t('loginBtn')}
       </button>
     </form>
+    
   )
 }

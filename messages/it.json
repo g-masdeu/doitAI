@@ -3,7 +3,9 @@
     "login": "Accedi",
     "register": "Registrati",
     "heroTitle": "L'intelligenza artificiale che fa crescere il tuo business",
-    "heroSubtitle": "Gestisci i processi, analizza i dati e scala senza limiti."
+    "heroSubtitle": "Gestisci i processi, analizza i dati e scala senza limiti.",
+    "aunNo": "Non hai ancora un account?",
+    "yaTienesCuenta": "Hai già un account?"
   },
   "Auth": {
     "emailLabel": "Indirizzo email",
