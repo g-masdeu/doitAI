@@ -127,7 +127,7 @@ export default function LandingPage() {
             onClick={() => setActiveModal("register")}
             className="group relative overflow-hidden rounded-lg bg-white px-8 py-3 font-bold text-green-900 transition hover:bg-gray-100"
           >
-            <span className="relative z-10">Empezar Gratis</span>
+            <span className="relative z-10">Empezar Gratis U</span>
             <div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/50 to-transparent z-0"></div>
           </button>
 
