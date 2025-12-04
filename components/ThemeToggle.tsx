@@ -25,7 +25,7 @@ export default function ThemeToggle() {
       // 1. Animación de Entrada (Igual que en page.tsx)
       initial={{ opacity: 0, x: 20 }}
       animate={{ opacity: 1, x: 0 }}
-      transition={{ delay: 0.9 }} // Un poco antes que el botón de Login (que tiene 1.0)
+      // transition={{ delay: 0.9 }} // Un poco antes que el botón de Login (que tiene 1.0)
       
       // 2. Interacción (Reemplaza a las clases hover:scale de CSS para mayor fluidez)
       whileHover={{ scale: 1.1 }}
