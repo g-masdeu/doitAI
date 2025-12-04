@@ -132,8 +132,7 @@ export default function LandingPage() {
             className="group relative overflow-hidden rounded-lg bg-white px-8 py-3.5 font-bold text-black transition hover:bg-gray-200"
           >
             <span className="relative z-10">Empezar Gratis</span>
-            {/* Brillo estilo Doit */}
-            <div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-gray-200/50 to-transparent z-0"></div>
+            <div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/50 to-transparent z-0"></div>
           </button>
 
           <motion.button
