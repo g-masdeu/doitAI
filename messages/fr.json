@@ -1,0 +1,38 @@
+{
+  "Landing": {
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "heroTitle": "L'intelligence artificielle qui propulse votre entreprise",
+    "heroSubtitle": "Gérez vos processus, analysez vos données et évoluez sans limites."
+  },
+  "Auth": {
+    "emailLabel": "Adresse e-mail",
+    "passwordLabel": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "loginBtn": "Se connecter",
+    "verifying": "Vérification en cours...",
+    "creating": "Création du compte...",
+    "registerBtn": "Créer un compte",
+    "personalData": "Données personnelles",
+    "companyData": "Données entreprise / Facturation",
+    "useSameData": "Utiliser mes données personnelles pour la facturation",
+    "placeholders": {
+      "email": "exemple@email.com",
+      "password": "••••••••",
+      "name": "Prénom *",
+      "surname1": "Premier nom de famille *",
+      "surname2": "Deuxième nom de famille",
+      "dni": "DNI / NIF *",
+      "phone": "Téléphone",
+      "web": "Site web",
+      "address": "Adresse",
+      "cp": "Code postal",
+      "city": "Ville / Province",
+      "companyName": "Raison sociale / Nom de l'entreprise",
+      "cif": "CIF / NIF de l'entreprise"
+    },
+    "successTitle": "Presque prêt !",
+    "successMsg": "Nous avons envoyé un e-mail de confirmation. Veuillez vérifier votre boîte de réception."
+  }
+}

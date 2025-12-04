@@ -1,0 +1,38 @@
+{
+  "Landing": {
+    "login": "Login",
+    "register": "Sign Up",
+    "heroTitle": "Artificial Intelligence powering your business",
+    "heroSubtitle": "Manage your processes, analyze data, and scale without limits."
+  },
+  "Auth": {
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot your password?",
+    "loginBtn": "Sign In",
+    "verifying": "Verifying...",
+    "creating": "Creating account...",
+    "registerBtn": "Create Account",
+    "personalData": "Personal Information",
+    "companyData": "Company / Billing Information",
+    "useSameData": "Use my personal information for billing",
+    "placeholders": {
+      "email": "example@email.com",
+      "password": "••••••••",
+      "name": "First Name *",
+      "surname1": "Last Name *",
+      "surname2": "Second Last Name",
+      "dni": "ID / Tax Number *",
+      "phone": "Phone",
+      "web": "Website",
+      "address": "Address",
+      "cp": "ZIP / Postal Code",
+      "city": "City / State / Province",
+      "companyName": "Company Name / Legal Name",
+      "cif": "Company Tax ID"
+    },
+    "successTitle": "Almost there!",
+    "successMsg": "We’ve sent you a confirmation email. Please check your inbox."
+  }
+}

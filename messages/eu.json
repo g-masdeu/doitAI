@@ -1,0 +1,38 @@
+{
+  "Landing": {
+    "login": "Saioa hasi",
+    "register": "Erregistratu",
+    "heroTitle": "Zure negozioa bultzatzen duen adimen artifiziala",
+    "heroSubtitle": "Prozesuak kudeatu, datuak aztertu eta mugarik gabe eskalatu."
+  },
+  "Auth": {
+    "emailLabel": "Helbide elektronikoa",
+    "passwordLabel": "Pasahitza",
+    "confirmPassword": "Pasahitza berretsi",
+    "forgotPassword": "Pasahitza ahaztu duzu?",
+    "loginBtn": "Sartu",
+    "verifying": "Egiaztatzen...",
+    "creating": "Kontua sortzen...",
+    "registerBtn": "Kontua sortu",
+    "personalData": "Datu pertsonalak",
+    "companyData": "Enpresaren datuak / Fakturazioa",
+    "useSameData": "Nire datu pertsonalak erabili fakturaziorako",
+    "placeholders": {
+      "email": "adibidea@emaila.com",
+      "password": "••••••••",
+      "name": "Izena *",
+      "surname1": "Lehen abizena *",
+      "surname2": "Bigarren abizena",
+      "dni": "DNI / NIF *",
+      "phone": "Telefonoa",
+      "web": "Webgunea",
+      "address": "Helbidea",
+      "cp": "Posta-kodea",
+      "city": "Hiria / Probintzia",
+      "companyName": "Sozietate-izena / Enpresaren izena",
+      "cif": "CIF / NIF enpresa"
+    },
+    "successTitle": "Ia prest!",
+    "successMsg": "Berrespen-mezu elektroniko bat bidali dizugu. Mesedez, egiaztatu zure posta elektronikoa."
+  }
+}

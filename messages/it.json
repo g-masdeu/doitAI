@@ -1,0 +1,38 @@
+{
+  "Landing": {
+    "login": "Accedi",
+    "register": "Registrati",
+    "heroTitle": "L'intelligenza artificiale che fa crescere il tuo business",
+    "heroSubtitle": "Gestisci i processi, analizza i dati e scala senza limiti."
+  },
+  "Auth": {
+    "emailLabel": "Indirizzo email",
+    "passwordLabel": "Password",
+    "confirmPassword": "Conferma password",
+    "forgotPassword": "Hai dimenticato la password?",
+    "loginBtn": "Accedi",
+    "verifying": "Verifica in corso...",
+    "creating": "Creazione dell'account...",
+    "registerBtn": "Crea account",
+    "personalData": "Dati personali",
+    "companyData": "Dati aziendali / Fatturazione",
+    "useSameData": "Usa i miei dati personali per la fatturazione",
+    "placeholders": {
+      "email": "esempio@email.com",
+      "password": "••••••••",
+      "name": "Nome *",
+      "surname1": "Primo cognome *",
+      "surname2": "Secondo cognome",
+      "dni": "DNI / NIF *",
+      "phone": "Telefono",
+      "web": "Sito web",
+      "address": "Indirizzo",
+      "cp": "CAP",
+      "city": "Città / Provincia",
+      "companyName": "Ragione sociale / Nome azienda",
+      "cif": "CIF / NIF azienda"
+    },
+    "successTitle": "Quasi fatto!",
+    "successMsg": "Ti abbiamo inviato un'e-mail di conferma. Controlla la tua casella di posta."
+  }
+}

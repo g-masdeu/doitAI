@@ -1,0 +1,38 @@
+{
+  "Landing": {
+    "login": "Inicia sessió",
+    "register": "Registra't",
+    "heroTitle": "La intel·ligència artificial que impulsa el teu negoci",
+    "heroSubtitle": "Gestiona processos, analitza dades i escala sense límits."
+  },
+  "Auth": {
+    "emailLabel": "Correu electrònic",
+    "passwordLabel": "Contrasenya",
+    "confirmPassword": "Confirmar contrasenya",
+    "forgotPassword": "Has oblidat la contrasenya?",
+    "loginBtn": "Entrar",
+    "verifying": "Verificant...",
+    "creating": "Creant compte...",
+    "registerBtn": "Crear compte",
+    "personalData": "Dades personals",
+    "companyData": "Dades empresa / Facturació",
+    "useSameData": "Utilitzar les meves dades personals per a la facturació",
+    "placeholders": {
+      "email": "exemple@correu.com",
+      "password": "••••••••",
+      "name": "Nom *",
+      "surname1": "Primer cognom *",
+      "surname2": "Segon cognom",
+      "dni": "DNI / NIF *",
+      "phone": "Telèfon",
+      "web": "Lloc web",
+      "address": "Adreça",
+      "cp": "Codi Postal",
+      "city": "Ciutat / Província",
+      "companyName": "Raó social / Nom de l'empresa",
+      "cif": "CIF / NIF de l'empresa"
+    },
+    "successTitle": "Ja gairebé ho tens!",
+    "successMsg": "T'hem enviat un correu de confirmació. Si us plau, revisa la teva bústia."
+  }
+}

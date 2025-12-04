@@ -1,0 +1,38 @@
+{
+  "Landing": {
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "heroTitle": "Künstliche Intelligenz, die Ihr Unternehmen voranbringt",
+    "heroSubtitle": "Prozesse verwalten, Daten analysieren und grenzenlos skalieren."
+  },
+  "Auth": {
+    "emailLabel": "E-Mail-Adresse",
+    "passwordLabel": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "forgotPassword": "Passwort vergessen?",
+    "loginBtn": "Anmelden",
+    "verifying": "Wird überprüft...",
+    "creating": "Konto wird erstellt...",
+    "registerBtn": "Konto erstellen",
+    "personalData": "Persönliche Daten",
+    "companyData": "Firmendaten / Rechnungsstellung",
+    "useSameData": "Meine persönlichen Daten für die Rechnungsstellung verwenden",
+    "placeholders": {
+      "email": "beispiel@email.com",
+      "password": "••••••••",
+      "name": "Vorname *",
+      "surname1": "Erster Nachname *",
+      "surname2": "Zweiter Nachname",
+      "dni": "DNI / NIF *",
+      "phone": "Telefon",
+      "web": "Webseite",
+      "address": "Adresse",
+      "cp": "PLZ",
+      "city": "Stadt / Provinz",
+      "companyName": "Firmenname / Unternehmensname",
+      "cif": "CIF / NIF der Firma"
+    },
+    "successTitle": "Fast fertig!",
+    "successMsg": "Wir haben eine Bestätigungs-E-Mail gesendet. Bitte überprüfe dein Postfach."
+  }
+}
