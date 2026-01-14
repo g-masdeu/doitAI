@@ -1,15 +1,15 @@
 # doitAI
 
-Frontal para una idea de **landing page** desarrollado en **Next.js** y pensado para **UX/UI**. :contentReference[oaicite:1]{index=1}
+Frontal para una idea de **landing page** desarrollado en **Next.js** y pensado para **UX/UI**.
 
 ## ✨ Qué hay aquí
 
 - Landing page / frontend en Next.js (App Router).
 - Componentes reutilizables en `components/`. :contentReference[oaicite:2]{index=2}
-- Estructura preparada para **i18n** (carpetas `i18n/` y `messages/`) y routing vía `middleware.ts`. :contentReference[oaicite:3]{index=3}
-- Estilado con **Tailwind CSS** (`tailwind.config.ts`, `postcss.config.mjs`). :contentReference[oaicite:4]{index=4}
+- Estructura preparada para **i18n** (carpetas `i18n/` y `messages/`) y routing vía `middleware.ts`.
+- Estilado con **Tailwind CSS** (`tailwind.config.ts`, `postcss.config.mjs`). 
 
-> Nota: Este repositorio está enfocado al **frontend** y a iterar rápido diseño/estructura. :contentReference[oaicite:5]{index=5}
+> Nota: Este repositorio está enfocado al **frontend** y a iterar rápido diseño/estructura.
 
 ---
 <img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/582465c9-4651-4f6f-a87a-990256cab901" />
