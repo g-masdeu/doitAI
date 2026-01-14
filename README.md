@@ -34,13 +34,13 @@ Frontal para una idea de **landing page** desarrollado en **Next.js** y pensado 
 npm install
 ```
 
-Desarrollo
+## Desarrollo
 ```bash
 npm run dev
 ```
 Abre http://localhost:3000.
 
-Build (producción)
+## Build (producción)
 ```bash
 npm run build
 npm run start
