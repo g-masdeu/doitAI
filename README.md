@@ -17,9 +17,9 @@ Frontal para una idea de **landing page** desarrollado en **Next.js** y pensado 
 
 ## 🧰 Stack
 
-- **Next.js** + **TypeScript** :contentReference[oaicite:6]{index=6}  
-- **Tailwind CSS** :contentReference[oaicite:7]{index=7}  
-- ESLint (config incluida) :contentReference[oaicite:8]{index=8}  
+- **Next.js** + **TypeScript** 
+- **Tailwind CSS** 
+- ESLint (config incluida)
 
 ---
 
