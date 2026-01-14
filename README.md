@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# doitAI
 
-## Getting Started
+Frontal para una idea de **landing page** desarrollado en **Next.js** y pensado para **UX/UI**. :contentReference[oaicite:1]{index=1}
 
-First, run the development server:
+## ✨ Qué hay aquí
 
+- Landing page / frontend en Next.js (App Router).
+- Componentes reutilizables en `components/`. :contentReference[oaicite:2]{index=2}
+- Estructura preparada para **i18n** (carpetas `i18n/` y `messages/`) y routing vía `middleware.ts`. :contentReference[oaicite:3]{index=3}
+- Estilado con **Tailwind CSS** (`tailwind.config.ts`, `postcss.config.mjs`). :contentReference[oaicite:4]{index=4}
+
+> Nota: Este repositorio está enfocado al **frontend** y a iterar rápido diseño/estructura. :contentReference[oaicite:5]{index=5}
+
+---
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/582465c9-4651-4f6f-a87a-990256cab901" />
+<img width="600" height="auto" alt="image" src="https://github.com/user-attachments/assets/db7de550-8f63-43c7-8e9c-c8a966f0e0ac" />
+
+## 🧰 Stack
+
+- **Next.js** + **TypeScript** :contentReference[oaicite:6]{index=6}  
+- **Tailwind CSS** :contentReference[oaicite:7]{index=7}  
+- ESLint (config incluida) :contentReference[oaicite:8]{index=8}  
+
+---
+
+## 🚀 Cómo ejecutar en local
+
+### Requisitos
+- Node.js (recomendado LTS)
+- npm (o pnpm / yarn / bun)
+
+### Instalación
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Desarrollo
+```bash
+npm run dev
+```
+Abre http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Build (producción)
+```bash
+npm run build
+npm run start
+```
+## 🗂️ Estructura del proyecto
+Resumen de carpetas principales: 
+GitHub
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+app/ → rutas, páginas y layout (App Router)
 
-## Learn More
+components/ → componentes UI reutilizables
 
-To learn more about Next.js, take a look at the following resources:
+i18n/ → configuración/ayudantes de internacionalización
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+messages/ → archivos de traducciones
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+public/ → estáticos (imágenes, iconos, etc.)
 
-## Deploy on Vercel
+middleware.ts → lógica de middleware (p. ej. routing/locale)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+tailwind.config.ts / postcss.config.mjs → estilos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🌍 Internacionalización (i18n)
+La base para multi-idioma está separada en:
+
+messages/ para textos/traducciones
+
+i18n/ para configuración
+
+middleware.ts para ayudar al enrutado por idioma 
+GitHub
+
+Cómo añadir un idioma (guía práctica):
+
+Crea un nuevo archivo/carpeta de traducciones en messages/.
+
+Añade/actualiza la configuración correspondiente en i18n/.
+
+Revisa el comportamiento de rutas/redirects en middleware.ts.
+
+---
+
+## 👥 Autores
+Guillem Masdeu (g-masdeu) 
